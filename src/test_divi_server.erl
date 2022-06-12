@@ -45,7 +45,7 @@
 %% External functions
 %% ====================================================================
 appl_start([])->
-    application:start(test_add).
+    application:start(test_divi).
 
 %% ====================================================================
 %% Server functions
