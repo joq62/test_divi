@@ -7,7 +7,7 @@
 %%% 
 %%% Created : 10 dec 2012
 %%% -------------------------------------------------------------------
--module(test_divi_server).  
+-module(test_divi).  
 
 -behaviour(gen_server). 
 
@@ -45,7 +45,7 @@
 %% External functions
 %% ====================================================================
 appl_start([])->
-    application:start(test_divi).
+    application:start(?MODULE).
 
 %% ====================================================================
 %% Server functions

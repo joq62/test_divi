@@ -5,6 +5,6 @@
               {mod,{test_divi_app,[]}},
               {applications,[kernel,stdlib]},
               {env,[]},
-              {modules,[test_divi_app,test_divi_server,test_divi_sup]},
+              {modules,[test_divi,test_divi_app,test_divi_sup]},
               {licenses,["Apache 2.0"]},
               {links,[]}]}.

@@ -30,7 +30,7 @@ init([]) ->
                  intensity => 0,
                  period => 1},
     ChildSpecs = [#{id=>test_divi,
-		    start=>{test_divi_server,start,[]}}],
+		    start=>{test_divi,start,[]}}],
     {ok, {SupFlags, ChildSpecs}}.
 
 %% internal functions
